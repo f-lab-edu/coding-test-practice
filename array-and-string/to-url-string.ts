@@ -11,3 +11,7 @@ export const toUrlString = (input: string): string => {
 
   return array.join("");
 };
+
+const result = toUrlString("Mr John  Smith");
+
+console.log(result);

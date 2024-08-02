@@ -1,4 +1,4 @@
-export const doesStringIncludeSameCharacter = (s: string) => {
+export const doesStringIncludeSameCharacter0 = (s: string) => {
   const hashTable: Record<string, boolean> = {};
 
   for (const char of s) {
